@@ -32,10 +32,15 @@ class MyHomePage extends StatelessWidget {
         // The title text which will be shown on the action bar
         title: Text(title),
       ),
-      body: Center(
-        child: Text(
+      body: Row( Children: [
+        Text(
           'Hello, World!',
         ),
+        Text(
+          'Hello',
+          ),
+        ]
+                ),
       ),
     );
   }
